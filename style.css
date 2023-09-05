@@ -24,7 +24,7 @@ h1.wh::before, h1.wh::after {
 }
 main.c {
     width: fit-content;
-    margin: 0 auto;
+    margin: 32px auto;
 }
 #c {
     font-family: Consolas, Courier New, Courier, monospace, SFMono-Regular, Menlo, Monaco;
