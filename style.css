@@ -1,0 +1,56 @@
+:root {
+    background-color: #c00000;
+}
+:root * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
+    color: #fff;
+
+    box-sizing: border-box;
+    margin: 0;
+}
+h1.wh {
+    font-size: 64px;
+}
+h1.wh::before, h1.wh::after {
+    color: #ffe000;
+    content: "!";
+
+    margin: 0 8px;
+}
+
+.w h2, p {
+    font-size: 32px;
+    font-weight: normal;
+}
+main.c {
+    width: fit-content;
+    margin: 0 auto;
+}
+#c {
+    font-family: Consolas, Courier New, Courier, monospace, SFMono-Regular, Menlo, Monaco;
+    font-size: 32px;
+}
+#d {
+    font-size: 16px;
+    color: #fff;
+
+    display: block;
+    padding: 8px;
+    margin: 16px 0;
+    background-color: #00a080;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #00000080;
+
+    cursor: pointer;
+    transition: .3s;
+}
+#d:hover {
+    background-color: #00c0a0;
+}
+.i {
+    font-size: 24px;
+}
+.i dt::after {
+    content: ":";
+}
